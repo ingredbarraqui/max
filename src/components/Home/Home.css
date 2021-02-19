@@ -1,0 +1,33 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.conteudo{
+    border: 1px solid #dadada;
+}
+.grid-container__home {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .item1__home {
+    grid-column: 1 /  2;
+  }
+
+  .item2__home {
+  grid-column: 2 /  3;
+}
+
+.grid-container__home2 {
+    display: grid;
+    grid-template-columns: auto auto
+  }
+
+.item3__home {
+  grid-column: 3 /  4;
+}
+
+.item4__home {
+  grid-column: 4 /  5;
+  margin: 40px 0px;
+}

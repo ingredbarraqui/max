@@ -1,0 +1,39 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    background: #EEEEEE;
+}
+.header-phone{
+    color: #1f3a93;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    float: right;
+}
+.header-menu{
+    float: right;
+    margin:  63px 0;
+}
+.header-menu a{
+    padding: 4px 30px;
+    font-size: 14px;
+    color: #454545;
+    font-weight: 500;
+    border-right: 1px solid #454545;
+}
+.logo-img{
+    max-width: 120px;
+    height: 120px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 42% auto; ;
+    grid-gap: 10px;
+  }
+  .item2 {
+    grid-column: 2 / span 3;
+  }
+  
