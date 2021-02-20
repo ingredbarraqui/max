@@ -15,31 +15,46 @@ const Home = () => {
                 </div>
             </div>
             <section className="container ">
-                <div className="grid-container__home">
-                    <div className=".item1__home">
-                        <div>
-                            <a href=""><img src={bannerMax} alt="" /></a>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="conteudo">
-                            <div className="item2__home">
-                                <a href=""><img src={max_home_banner_whatsapp} alt="" /></a>
-                                <h3>Receba novidades do Max Atacadista direto em seu WhatsApp!</h3>
-                                <p>Adicione aos seus contatos, envie um whats dizendo “quero preço baixo” e pronto!</p>
+                <div className="conteudo__home__bg">
+                    <div className="grid-container__home">
+                        <div className="item1__home">
+                            <div>
+                                <a href=""><img src={bannerMax} alt="" /></a>
                             </div>
                         </div>
-                        <div className="item2__home">
-                            <div className="grid-container__home2">
-                                <div className="item1__home">
-                                    <a href=""><img src={max_21_01_home_crediffato_} alt="" /></a>
-                                    <h3>Receba novidades do Max Atacadista direto em seu WhatsApp!</h3>
-                                    <p>Adicione aos seus contatos, envie um whats dizendo “quero preço baixo” e pronto!</p>
-                                </div>
+                        <div>
+                            <div className="conteudo">
                                 <div className="item2__home">
-                                    <a href=""><img src={max_21_01_home_app} alt="" /></a>
-                                    <h3>Receba novidades do Max Atacadista direto em seu WhatsApp!</h3>
-                                    <p>Adicione aos seus contatos, envie um whats dizendo “quero preço baixo” e pronto!</p>
+                                    <div className="conteudo__home">
+                                        <a href=""><img src={max_home_banner_whatsapp} alt="" /></a>
+                                        <div className="item__home__conteudo" >
+                                            <h3>Receba novidades do Max Atacadista direto em seu WhatsApp!</h3>
+                                            <p>Adicione aos seus contatos, envie um whats dizendo “quero preço baixo” e pronto!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="item2__home">
+                                <div className="grid-container__home2">
+                                    <div className="conteudo">
+                                        <div className="item1__home">
+                                            <a href=""><img src={max_21_01_home_crediffato_} alt="" /></a>
+                                            <div className="item__home__conteudo">
+                                                <h3>Preço de atacado</h3>
+                                                <p>e até 40 dias pra pagar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="conteudo">
+                                        <div className="item2__home">
+                                            <a href=""><img src={max_21_01_home_app} alt="" /></a>
+                                            <div className="item__home__conteudo">
+                                                <h3>Baixe agora</h3>
+                                                <p>O app que liga você direto ao preço de atacado</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

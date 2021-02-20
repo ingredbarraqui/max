@@ -5,9 +5,31 @@
 .conteudo{
     border: 1px solid #dadada;
 }
+.conteudo img{
+    width: -webkit-fill-available;
+    height: 219px;
+}
+.conteudo h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.conteudo {
+    color: #9c9c9c;
+    font-size: 14px;
+}
+.conteudo__home__bg{
+    margin-top: -100px;
+    display: inline-block;
+    background: #fff;
+}
+.item__home__conteudo{
+    padding: 8px;
+}
+
 .grid-container__home {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% auto;
+    margin: 10px;
   }
 
   .item1__home {
@@ -20,7 +42,9 @@
 
 .grid-container__home2 {
     display: grid;
-    grid-template-columns: auto auto
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin-top: 10px;
   }
 
 .item3__home {
