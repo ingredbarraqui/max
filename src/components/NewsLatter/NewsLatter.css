@@ -49,14 +49,3 @@
     grid-template-columns: auto auto 50%;
     margin: 10px;
   }
-
-  .item1__news {
-    grid-column: 1 /  2;
-  }
-
-  .item2__news {
-  grid-column: 2 /  3;
-}
-.item3__news {
-    grid-column: 3 /  4;
-  }

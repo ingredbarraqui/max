@@ -1,0 +1,58 @@
+.grid-container__contato{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+.footerContato__bg{
+    background-color:#1F3A93 ;
+}
+
+ .item__footerContato_titulo{
+    border-bottom: 1px solid #2a46a1;
+    padding: 20px 0;
+     font-weight: 600;
+     font-size: 20px;
+     color: #f2b428;
+ }
+
+
+ .footerContato__contato h3{
+    padding: 5px 0;
+     font-weight: 600;
+     font-size: 26px;
+     color: #f2b428;
+ }
+ 
+ .footerContato__contato_info{
+     padding: 15px 0;
+    color: #fff;
+    font-weight: 600;
+}
+.footerContato__contato_input input{
+    font-size: 16px;
+    padding: 5px;
+    width: 280px;
+    margin: 2px;
+    border: none;
+    color: #d7dffa;
+}
+.footerContato__contato_input select{
+    font-size: 16px;
+    padding: 5px;
+    width: 280px;
+    margin: 2px;
+}
+.footerContato_conteudo__button{
+    padding: 10px 106px;
+    background: #f2b428;
+    color: #ffF;
+    border: none;
+    margin: 2px;
+    font-size: 16px;
+}
+.item__institucional_conteudo {
+    padding: 10px;
+}

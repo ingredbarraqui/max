@@ -1,0 +1,36 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.grid-container__institucional{
+    display: grid;
+    grid-template-columns: auto auto 50%;
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+
+ .item__institucional_titulo{
+     margin-bottom: 10px;
+     border-bottom: 1px solid #e1e1e1;font-weight: 500;
+     font-size: 28px;
+ }
+ .item__institucional{
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+ }
+
+ .item__institucional h4{
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .item__institucional_conteudo p{
+    color: #9c9c9c;
+}
+.item__institucional img{
+    width: -webkit-fill-available;
+}
+.item__institucional_conteudo {
+    padding: 10px;
+}

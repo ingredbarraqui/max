@@ -18,19 +18,19 @@ const Footer = () => {
                             <li><a href="/trabalhe-conosco.php" class="list-group-item">Trabalhe Conosco</a></li>
                         </div>
                         <div className="item2__footer">
-                            <h3 className="Titulo__footer">INSTITUCIONAL</h3>
+                            <h3 className="Titulo__footer">ATENDIMENTO</h3>
                             <li><a href="/como-funciona.php" class="list-group-item">Como Funciona</a></li>
                             <li><a href="/fale-conosco.php" class="list-group-item">Fale Conosco</a></li>
                             <li> <a href="/formas-de-pagamento.php" class="list-group-item">Formas de Pagamento</a></li>
                             <li><a href="/lgpd-lei-geral-de-protecao-de-dados" class="list-group-item">Lei Geral de Proteção de Dados</a></li>
                         </div>
                         <div className="item3__footer">
-                            <h3 className="Titulo__footer">INSTITUCIONAL</h3>
+                            <h3 className="Titulo__footer">DICAS E PROMOÇÕES</h3>
                             <li><a href="/correntedobem" class="list-group-item">Corrente do Bem</a></li>
                             <li><a href="/promocoes.php" class="list-group-item">Promoções</a></li>
                         </div>
                         <div className="item4__footer">
-                            <h3 className="Titulo__footer">INSTITUCIONAL</h3>
+                            <h3 className="Titulo__footer">BAIXE O APP</h3>
                             <li><a href="#" target="_blank" rel="noopener noreferrer">Mupay</a></li>
                         </div>
                     </nav>
