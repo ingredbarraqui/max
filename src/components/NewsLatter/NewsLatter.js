@@ -15,7 +15,7 @@ const NewsLatter = () => {
                     </div>
                     <div className="item2_news">
                         <div className="New_conteudo__img">
-                            <img src={news} alt="" />
+
                         </div>
                     </div>
                     <div className="item3_news">
