@@ -1,4 +1,6 @@
 import React from 'react'
+import icon_google_play from "./icon_google_play.png"
+import icon_apple_store from "./icon_apple_store.png"
 import './Footer.css';
 const Footer = () => {
     return (
@@ -32,6 +34,10 @@ const Footer = () => {
                         <div className="item4__footer">
                             <h3 className="Titulo__footer">BAIXE O APP</h3>
                             <li><a href="#" target="_blank" rel="noopener noreferrer">Mupay</a></li>
+                            <div className="footer__download">
+                                <a href=""><img src={icon_google_play} alt="" /></a>
+                                <a href=""><img src={icon_apple_store} alt="" /></a>
+                            </div>
                         </div>
                     </nav>
                 </div>
