@@ -1,22 +1,8 @@
-.container{
-    width: 1200px;
-    margin: auto;
-}
 
 .footer{
     background: #EEEEEE;
 }
-.header-phone{
-    color: #1f3a93;
-    font-weight: bold;
-    font-size: 13px;
-    padding: 5px;
-    float: right;
-}
-.header-menu{
-    float: right;
-    margin:  63px 0;
-}
+
 .footer a{
     font-size: 14px;
     color: #454545;

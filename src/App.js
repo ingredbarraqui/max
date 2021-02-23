@@ -1,4 +1,7 @@
+
 import './App.css';
+
+import FooterInstitucional from './components/Footer institucional/FooterInstitucional';
 import Footer from './components/Footer/Footer';
 import FooterContato from './components/FooterContato/FooterContato';
 import Header from './components/Header/Header';
@@ -15,6 +18,7 @@ function App() {
       <Institucional />
       <Footer />
       <FooterContato />
+      <FooterInstitucional />
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.FooterInstitucional{
+    font-size: 12px;
+    margin-top: 30px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 10px;
+    font-weight: 500px;
+}
+.FooterInstitucional p{
+margin: 20px 0;
+}
+.formasPagamento{
+    margin: 10px 0;
+}
+.formasPagamento img{
+    margin: 10px 0;
+}
+.formasPagamento h4{
+    font-size: 12px;
+}
